@@ -137,7 +137,8 @@
 						            echo '
 						            <tr>
 						                <td class="text-center"><span class="label label-success">'.$i.'</span></td>
-                                        <td class="text-left"><a href="'.$url.'/kegiatan/view/'.$r_keg["item"][$i]["keg_id"].'">'.$r_keg["item"][$i]["keg_nama"].'</a>
+                                        <td class="text-left"><strong><a href="'.$url.'/kegiatan/view/'.$r_keg["item"][$i]["keg_id"].'">'.$r_keg["item"][$i]["keg_nama"].'</a>
+                                        </strong>
                                         <p>'.$r_keg["item"][$i]["keg_unitnama"].'</p></td>
                                         <td>'.get_nama_unit($r_keg["item"][$i]["keg_unitparent"]).'</td>
                                         <td>'.$kegiatan_tipe.'</td>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Bli Mika - I Putu Dyatmika <pdyatmika@gmail.com>">
 	<meta name="language" content="id,en" />
-    <title><?php echo $prg_desc; ?> - BPS Provinsi Nusa Tenggara Barat</title>
+    <title><?php echo $prg_name; ?> | <?php echo $prg_desc; ?> - BPS Provinsi Nusa Tenggara Barat</title>
     <link href="<?php echo $url; ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url; ?>/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="<?php echo $url; ?>/css/animate.css" rel="stylesheet">
